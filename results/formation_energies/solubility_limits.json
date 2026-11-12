@@ -1,0 +1,38 @@
+{
+  "method": "upper bounds on mu_O and mu_N from SiO2 and Si3N4 coexistence",
+  "enthalpy_source": "NIST-JANAF (Chase 1998) for SiO2 and Si3N4; this work's DFT value for SiC",
+  "dH_f_eV": {
+    "SiO2": -9.440398659426826,
+    "Si3N4": -7.718789826766055,
+    "SiC": -0.4112952553996765
+  },
+  "d_mu_bound_eV": {
+    "Si_rich": {
+      "O": -4.720199329713413,
+      "N": -1.9296974566915137
+    },
+    "C_rich": {
+      "O": -4.514551702013575,
+      "N": -1.6212260151417563
+    }
+  },
+  "formation_energy_at_bound_eV": {
+    "er_ko": {
+      "Si_rich": 4.9644856595347315,
+      "C_rich": 4.75883803183412
+    },
+    "er_ho": {
+      "Si_rich": 5.228133648766699,
+      "C_rich": 5.022486021066087
+    },
+    "er_kn": {
+      "Si_rich": 2.661322123440169,
+      "C_rich": 2.352850681889638
+    },
+    "er_hn": {
+      "Si_rich": 3.0202905584159083,
+      "C_rich": 2.711819116865377
+    }
+  },
+  "caveat": "mixed experimental/DFT estimate; ~0.5 eV uncertainty per impurity atom from PBE O2/N2 overbinding. Replace with DFT SiO2 and Si3N4 references before quoting as final."
+}

@@ -1,0 +1,14 @@
+{
+  "config": "h_i_only",
+  "description": "Isolated interstitial H bonded to C (no Er) - binding reference",
+  "supercell": [
+    4,
+    4,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 129,
+  "lattice_a_bohr": 23.357013219095997,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Si64 H1 C64"
+}

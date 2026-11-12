@@ -1,0 +1,22 @@
+# sic_primitive_geom: 4H-SiC primitive cell geometry (included by the band-gap inputs).
+
+acell   5.8399  5.8399  19.1440   # Bohr
+angdeg  90.0  90.0  120.0
+rprim   1.0  0.0  0.0
+        -0.5  0.8660254038  0.0
+        0.0  0.0  1.0
+
+ntypat  2
+znucl   14 6   # Si, C
+natom   8
+typat   1 1 1 1  2 2 2 2
+
+xred
+   0.0000000000  0.0000000000  0.0000000000   # Si, bilayer A (k-site)
+   0.3333333333  0.6666666667  0.2500000000   # Si, bilayer B (h-site)
+   0.0000000000  0.0000000000  0.5000000000   # Si, bilayer A (k-site)
+   0.6666666667  0.3333333333  0.7500000000   # Si, bilayer C (h-site)
+   0.0000000000  0.0000000000  0.1875000000   # C, bilayer A (k-site)
+   0.3333333333  0.6666666667  0.4375000000   # C, bilayer B (h-site)
+   0.0000000000  0.0000000000  0.6875000000   # C, bilayer A (k-site)
+   0.6666666667  0.3333333333  0.9375000000   # C, bilayer C (h-site)

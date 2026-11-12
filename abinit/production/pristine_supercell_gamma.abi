@@ -1,0 +1,37 @@
+# pristine_supercell_gamma: pristine 128-atom supercell: total energy and band edges.
+# Shared settings: ../common_parameters.abi. See README.md for the full workflow.
+
+acell   23.3596  23.3596  19.1440   # Bohr
+angdeg  90.0  90.0  120.0
+rprim   1.0  0.0  0.0
+        -0.5  0.8660254038  0.0
+        0.0  0.0  1.0
+
+ntypat  2
+znucl   14 6   # Si, C
+natom   128
+include "../production/positions_pristine.abi"
+
+chkprim 0
+
+kptopt  1
+ngkpt   2 2 2
+nshiftk 1
+shiftk  0.0 0.0 0.0
+
+istwfk *1
+
+include "../common_parameters.abi"
+
+occopt  3
+usepawu 0
+lpawu   -1 -1
+upawu   0.0 0.0
+jpawu   0.0 0.0
+pseudos "Si.xml, C.xml"
+
+ionmov  0
+ecutsm  0.5
+
+prtvol  1
+nband   320

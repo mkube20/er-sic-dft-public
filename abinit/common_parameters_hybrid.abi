@@ -1,0 +1,27 @@
+# common_parameters_hybrid.abi: settings shared by the HSE06 band-gap
+# calculations of the 4H-SiC primitive cell (references/sic_primitive_*_hse.abi).
+
+pp_dirpath "../../pseudopotentials/"   # JTH v2.0 PAW datasets (generated for PBE)
+
+ecut       22        # Ha, same cutoffs as the PBE calculations
+pawecutdg  44        # Ha
+tsmear     0.005     # Ha
+diemac     12.0      # model dielectric constant for SCF preconditioning only
+istwfk    *1         # no time-reversal storage of wavefunctions
+tolvrs     1.0d-10
+
+optstress  0         # no stress tensor (not supported with this setup)
+autoparal   0        # parallel layout set by hand
+paral_kgb   0        # required by the Fock operator
+paral_atom  0        # required by the Fock operator
+
+ionmov  0            # single point at the PBE geometry
+optcell 0
+ecutsm  0.5
+
+prtden     1
+prteig     1
+prtebands  0         # do not write band-structure plot files
+prtvol     1         # print eigenvalues at all k points
+prtdos     3         # per-atom l-projected DOS
+prtwf      0         # do not write wavefunctions

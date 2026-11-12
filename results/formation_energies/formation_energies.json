@@ -1,0 +1,78 @@
+{
+  "chemical_potentials_hartree": {
+    "Si_rich": {
+      "mu_Si": -3.9866735949,
+      "mu_C": -5.762104590600001,
+      "mu_Er": -194.538871505,
+      "mu_N": -10.0294752125,
+      "mu_O": -16.071739488
+    },
+    "C_rich": {
+      "mu_Si": -4.001788416750001,
+      "mu_C": -5.74698976875,
+      "mu_Er": -194.538871505,
+      "mu_N": -10.0294752125,
+      "mu_O": -16.071739488
+    }
+  },
+  "formation_energies_eV": {
+    "er_h": {
+      "Si_rich": 11.703520011514472,
+      "C_rich": 11.292224548225233,
+      "relaxed": false
+    },
+    "er_k": {
+      "Si_rich": 9.941454240049222,
+      "C_rich": 9.530158776759983,
+      "relaxed": false
+    },
+    "er_hc": {
+      "Si_rich": 8.017078843214605,
+      "C_rich": 8.428374306503072,
+      "relaxed": true
+    },
+    "er_i": {
+      "Si_rich": 12.054825849587457,
+      "C_rich": 12.054825849587457,
+      "relaxed": true
+    },
+    "er_hv": {
+      "Si_rich": 7.870815530080701,
+      "C_rich": 7.870815530079927,
+      "relaxed": false
+    },
+    "er_kv": {
+      "Si_rich": 7.839706641258016,
+      "C_rich": 7.839706641257243,
+      "relaxed": false
+    },
+    "er_hn": {
+      "Si_rich": 7.610891488967302,
+      "C_rich": 7.610891488966528,
+      "relaxed": false
+    },
+    "er_ho": {
+      "Si_rich": 7.138721058513936,
+      "C_rich": 7.1387210585131635,
+      "relaxed": false
+    }
+  },
+  "downselect_ranking": [
+    "er_ho",
+    "er_hn",
+    "er_kv",
+    "er_hv",
+    "er_hc",
+    "er_k",
+    "er_h",
+    "er_i"
+  ],
+  "downselect_threshold_eV": 8.0,
+  "selected": [
+    "er_ho",
+    "er_hn",
+    "er_kv",
+    "er_hv"
+  ],
+  "hero": "er_ho"
+}

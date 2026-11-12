@@ -1,0 +1,33 @@
+# sic_primitive_gapA_gamma_hse: 4H-SiC primitive cell: HSE06 band gap, Gamma-centered 6 6 2 mesh.
+# Shared settings: ../common_parameters.abi. See README.md for the full workflow.
+
+include "../references/sic_primitive_geom.abi"
+
+kptopt  1
+ngkpt   6 6 2
+nshiftk 1
+shiftk  0.0 0.0 0.0
+
+include "../common_parameters_hybrid.abi"
+
+ixc       -428   # HSE06
+iscf       7   # Pulay on the potential — see the probe rounds
+diemix     0.01
+nnsclohf   3
+nstep      17
+
+occopt  3
+usepawu 0
+lpawu   -1 -1
+upawu   0.0 0.0
+jpawu   0.0 0.0
+pseudos "Si.xml, C.xml"
+
+nband     24
+nbandhf   16
+
+np_spkpt    7
+nphf        4
+
+getwfk_filepath "../sic_primitive_gapA_gamma_pbewfk_run/sic_primitive_gapA_gamma_pbewfko_WFK"
+getden_filepath "../sic_primitive_gapA_gamma_pbewfk_run/sic_primitive_gapA_gamma_pbewfko_DEN"

@@ -1,0 +1,14 @@
+{
+  "config": "er_h",
+  "description": "Er substitutes Si at the hexagonal site",
+  "supercell": [
+    4,
+    4,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 128,
+  "lattice_a_bohr": 23.357013219095997,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Er1 Si63 C64"
+}

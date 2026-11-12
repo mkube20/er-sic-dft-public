@@ -1,0 +1,14 @@
+{
+  "config": "er_i",
+  "description": "Er as a tetrahedral interstitial near the Si sublattice",
+  "supercell": [
+    4,
+    4,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 129,
+  "lattice_a_bohr": 23.357013219095997,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Er1 Si64 C64"
+}

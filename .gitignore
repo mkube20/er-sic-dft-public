@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+# extracted from data/pdos/*.tar.xz by scripts/make_figures.sh
+abinit/*_run/*_DOS*
+# files written by new ABINIT runs
+*.log
+*.out
+*_WFK
+*_DEN
+*_POT.nc
+*_VXC.nc
+results/figures/*.png

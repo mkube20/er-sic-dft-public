@@ -1,0 +1,14 @@
+{
+  "config": "er_kc",
+  "description": "Er substitutes C at the quasi-cubic site",
+  "supercell": [
+    4,
+    4,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 128,
+  "lattice_a_bohr": 23.357013219095997,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Er1 Si64 C63"
+}

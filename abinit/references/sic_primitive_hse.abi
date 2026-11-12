@@ -1,0 +1,53 @@
+# sic_primitive_hse: 4H-SiC primitive cell: HSE06 band gap, shifted 6 6 2 mesh.
+# Shared settings: ../common_parameters.abi. See README.md for the full workflow.
+
+acell   5.8399  5.8399  19.1440   # Bohr
+angdeg  90.0  90.0  120.0
+rprim   1.0  0.0  0.0
+        -0.5  0.8660254038  0.0
+        0.0  0.0  1.0
+
+ntypat  2
+znucl   14 6
+natom   8
+typat   1 1 1 1  2 2 2 2
+
+xred
+   0.0000000000  0.0000000000  0.0000000000   # Si, bilayer A (k-site)
+   0.3333333333  0.6666666667  0.2500000000   # Si, bilayer B (h-site)
+   0.0000000000  0.0000000000  0.5000000000   # Si, bilayer A (k-site)
+   0.6666666667  0.3333333333  0.7500000000   # Si, bilayer C (h-site)
+   0.0000000000  0.0000000000  0.1875000000   # C, bilayer A (k-site)
+   0.3333333333  0.6666666667  0.4375000000   # C, bilayer B (h-site)
+   0.0000000000  0.0000000000  0.6875000000   # C, bilayer A (k-site)
+   0.6666666667  0.3333333333  0.9375000000   # C, bilayer C (h-site)
+
+kptopt  1
+ngkpt   6 6 2
+nshiftk 1
+shiftk  0.0 0.0 0.5
+
+include "../common_parameters_hybrid.abi"
+
+ixc       -428
+iscf       7
+diemix     0.01
+nstep      150
+nnsclohf   3
+
+occopt  3
+usepawu 0
+lpawu   -1 -1
+upawu   0.0 0.0
+jpawu   0.0 0.0
+
+pseudos "Si.xml, C.xml"
+
+nband     24
+nbandhf   16
+
+np_spkpt    7
+nphf        4
+
+getwfk_filepath "../sic_primitive_pbewfk_run/sic_primitive_pbewfko_WFK"
+getden_filepath "../sic_primitive_pbewfk_run/sic_primitive_pbewfko_DEN"

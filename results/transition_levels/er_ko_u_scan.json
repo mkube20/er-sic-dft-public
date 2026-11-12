@@ -1,0 +1,48 @@
+{
+  "config": "er_ko",
+  "E_VBM_eV": 7.6953,
+  "correction_eV": {
+    "2": 0.5597724352533779,
+    "1": 0.1451492389297872,
+    "-1": 0.139832138972368
+  },
+  "note": "statics at the U=7.21 relaxed geometry of each charge state; geometry fixed, so this isolates the electronic response to U",
+  "points": [
+    {
+      "U_eV": 7.21,
+      "E_q0_Ha": -824.92876682,
+      "E_qp1_Ha": -825.28257696,
+      "E_qm1_Ha": -824.56492408,
+      "moment_muB": 2.99967248,
+      "epsilon_p1_0_eV": 1.7872151383590467,
+      "production": true
+    },
+    {
+      "U_eV": 5.0,
+      "E_q0_Ha": -824.93486836,
+      "E_qp1_Ha": -825.28575634,
+      "E_qm1_Ha": -824.57204966,
+      "moment_muB": 2.72797545,
+      "epsilon_p1_0_eV": 1.7076991139257753,
+      "production": false
+    },
+    {
+      "U_eV": 6.0,
+      "E_q0_Ha": -824.93116311,
+      "E_qp1_Ha": -825.2841477,
+      "E_qm1_Ha": -824.56771538,
+      "moment_muB": 2.90198481,
+      "epsilon_p1_0_eV": 1.7647507784389802,
+      "production": false
+    },
+    {
+      "U_eV": 8.0,
+      "E_q0_Ha": -824.92781303,
+      "E_qp1_Ha": -825.28165199,
+      "E_qm1_Ha": -824.56390875,
+      "moment_muB": 3.01142474,
+      "epsilon_p1_0_eV": 1.7879993705078725,
+      "production": false
+    }
+  ]
+}

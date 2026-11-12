@@ -1,0 +1,14 @@
+{
+  "config": "pristine",
+  "description": "No defect \u2014 reference structure",
+  "supercell": [
+    2,
+    2,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 32,
+  "lattice_a_bohr": 11.678506609547998,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Si16 C16"
+}

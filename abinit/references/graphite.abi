@@ -1,0 +1,33 @@
+# graphite: graphite (chemical-potential reference).
+# Shared settings: ../common_parameters.abi. See README.md for the full workflow.
+
+acell   4.6547  4.6547  12.6820   # Bohr
+angdeg  90.0  90.0  120.0
+rprim   1.0  0.0  0.0
+        -0.5  0.8660254038  0.0
+        0.0  0.0  1.0
+
+ntypat  1
+znucl   6
+natom   4
+typat   1 1 1 1
+xred
+   0.0000000000  0.0000000000  0.25
+   0.0000000000  0.0000000000  0.75
+   0.3333333333  0.6666666667  0.25
+   0.6666666667  0.3333333333  0.75
+
+kptopt  1
+ngkpt   12 12 4
+nshiftk 1
+shiftk  0.0 0.0 0.5
+
+include "../common_parameters.abi"
+occopt  3
+usepawu 0
+lpawu   -1
+
+pseudos "C.xml"
+
+optcell 0
+ionmov  0

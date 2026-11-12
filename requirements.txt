@@ -1,0 +1,8 @@
+# Analysis and plotting (versions used for the published results)
+numpy>=2.0           # tested with 2.4.1
+matplotlib>=3.8      # 3.10.8
+h5py>=3.9            # 3.16.0
+netCDF4>=1.6         # 1.7.4
+pymatgen>=2024.1     # 2026.5.4
+abipy>=0.9           # 1.0.0
+pymatgen-analysis-defects>=2024.1   # 2026.3.20; freysoldt_correction.py only

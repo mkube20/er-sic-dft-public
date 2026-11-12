@@ -1,0 +1,14 @@
+{
+  "config": "er_hh",
+  "description": "Er_Si(h) + H bonded to a neighboring C (AB_C site)",
+  "supercell": [
+    4,
+    4,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 129,
+  "lattice_a_bohr": 23.357013219095997,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Er1 Si63 H1 C64"
+}

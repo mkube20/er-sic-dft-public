@@ -1,0 +1,14 @@
+{
+  "config": "er_ho",
+  "description": "Er_Si(h) + adjacent O substituting C (O_C pair)",
+  "supercell": [
+    2,
+    2,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 32,
+  "lattice_a_bohr": 11.678506609547998,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Er1 Si15 C15 O1"
+}

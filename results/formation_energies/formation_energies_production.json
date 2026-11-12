@@ -1,0 +1,54 @@
+{
+  "chemical_potentials_hartree": {
+    "Si_rich": {
+      "mu_Si": -3.9866735949,
+      "mu_C": -5.762104590600001,
+      "mu_Er": -194.538871505,
+      "mu_N": -10.0294752125,
+      "mu_O": -16.071739488
+    },
+    "C_rich": {
+      "mu_Si": -4.001788416750001,
+      "mu_C": -5.74698976875,
+      "mu_Er": -194.538871505,
+      "mu_N": -10.0294752125,
+      "mu_O": -16.071739488
+    }
+  },
+  "formation_energies_eV": {
+    "er_hv": {
+      "Si_rich": 3.1930672965953617,
+      "C_rich": 3.1930672965945885,
+      "relaxed": true
+    },
+    "er_kv": {
+      "Si_rich": 4.862545463218159,
+      "C_rich": 4.862545463217386,
+      "relaxed": true
+    },
+    "er_hn": {
+      "Si_rich": 2.1185996569061136,
+      "C_rich": 2.1185996569053405,
+      "relaxed": true
+    },
+    "er_ho": {
+      "Si_rich": 1.07853166227705,
+      "C_rich": 1.0785316622762766,
+      "relaxed": true
+    }
+  },
+  "downselect_ranking": [
+    "er_ho",
+    "er_hn",
+    "er_hv",
+    "er_kv"
+  ],
+  "downselect_threshold_eV": 8.0,
+  "selected": [
+    "er_ho",
+    "er_hn",
+    "er_hv",
+    "er_kv"
+  ],
+  "hero": "er_ho"
+}

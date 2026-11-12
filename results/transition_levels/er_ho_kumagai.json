@@ -1,0 +1,51 @@
+{
+  "config": "er_ho",
+  "method": "Kumagai-Oba eFNV, anisotropic dielectric tensor, neutral-defect-cell reference at common geometry",
+  "dielectric_tensor": [
+    [
+      9.66,
+      0,
+      0
+    ],
+    [
+      0,
+      9.66,
+      0
+    ],
+    [
+      0,
+      0,
+      10.03
+    ]
+  ],
+  "R_max_bohr": 9.572,
+  "provenance_warning": "alignment set is nsppol 1 on the nsppol-1 relaxed geometry; no --spin alignment set exists",
+  "corrections_eV": {
+    "2": 0.614699494989576,
+    "1": 0.1744489551290909,
+    "-1": 0.14356869253376475
+  },
+  "detail": {
+    "2": {
+      "E_pc_eV": 0.7668379903188661,
+      "alignment_eV": 0.07606924766464507,
+      "alignment_scatter_eV": 0.037079068816730815,
+      "E_corr_eV": 0.614699494989576,
+      "n_sampling_sites": 81
+    },
+    "1": {
+      "E_pc_eV": 0.19170949757971653,
+      "alignment_eV": 0.017260542450625634,
+      "alignment_scatter_eV": 0.01877210979504965,
+      "E_corr_eV": 0.1744489551290909,
+      "n_sampling_sites": 81
+    },
+    "-1": {
+      "E_pc_eV": 0.19170949757971653,
+      "alignment_eV": -0.048140805045951786,
+      "alignment_scatter_eV": 0.020847947572604063,
+      "E_corr_eV": 0.14356869253376475,
+      "n_sampling_sites": 81
+    }
+  }
+}

@@ -1,0 +1,65 @@
+# DISPLAY ONLY -- 2x2x1 crop of the relaxed 4x4x1 (128-atom) cell.
+# Coordinates are from the converged 128-atom calculation; the defect complex
+# is exact. The CELL is not: atoms on the new faces were relaxed against
+# 128-atom neighbors and now face different images, so contacts across those
+# faces are artifacts. This is NOT a 32-atom calculation of this defect,
+# and the 32-atom cell used elsewhere in this project is the superseded,
+# unpolarized screening cell. Render from this file; quote from er_ko_relaxed.cif.
+# generated using pymatgen
+data_ErSi15C15O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18068398
+_cell_length_b   6.18068398
+_cell_length_c   10.13056852
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErSi15C15O
+_chemical_formula_sum   'Er1 Si15 C15 O1'
+_cell_volume   335.14869111
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.44097309  0.09267988  0.99918321  1
+  Si  Si1  1  0.44201912  0.59487518  0.00141052  1
+  Si  Si2  1  0.94215403  0.09474027  0.99955062  1
+  Si  Si3  1  0.94421442  0.59592121  0.99918321  1
+  C  C4  1  0.44144907  0.08991538  0.18702913  1
+  C  C5  1  0.44318272  0.59371158  0.19644550  1
+  C  C6  1  0.94222337  0.09467093  0.18730123  1
+  C  C7  1  0.94697893  0.59544523  0.18702913  1
+  Si  Si8  1  0.09516050  0.42280509  0.24973676  1
+  Si  Si9  1  0.10791245  0.92898185  0.25006019  1
+  Si  Si10  1  0.61508591  0.42180839  0.23449581  1
+  Si  Si11  1  0.61408921  0.94173380  0.24973676  1
+  C  C12  1  0.05844904  0.40645973  0.42988830  1
+  C  C13  1  0.10706659  0.92982771  0.43789072  1
+  O  O14  1  0.65041897  0.38647533  0.42003849  1
+  C  C15  1  0.63043457  0.97844526  0.42988830  1
+  Si  Si16  1  0.43455316  0.06541196  0.50189787  1
+  Er  Er17  1  0.45443602  0.58245828  0.49080141  1
+  Si  Si18  1  0.94415833  0.09273597  0.50060997  1
+  Si  Si19  1  0.97148234  0.60234114  0.50189787  1
+  C  C20  1  0.44357847  0.09999252  0.68586230  1
+  C  C21  1  0.44019785  0.59669645  0.71169625  1
+  C  C22  1  0.94182279  0.09507151  0.68735148  1
+  C  C23  1  0.93690178  0.59331583  0.68586230  1
+  Si  Si24  1  0.27305137  0.26399198  0.75501870  1
+  Si  Si25  1  0.27372175  0.76317255  0.75458208  1
+  Si  Si26  1  0.77578737  0.26110693  0.75019209  1
+  Si  Si27  1  0.77290232  0.76384293  0.75501870  1
+  C  C28  1  0.27281180  0.25741804  0.94265373  1
+  C  C29  1  0.27298426  0.76391004  0.94329503  1
+  C  C30  1  0.77498873  0.26190557  0.93765761  1
+  C  C31  1  0.77947626  0.76408250  0.94265373  1

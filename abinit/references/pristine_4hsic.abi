@@ -1,0 +1,44 @@
+# pristine_4hsic: 4H-SiC unit cell, full relaxation (mu_SiC and lattice parameters).
+# Shared settings: ../common_parameters.abi. See README.md for the full workflow.
+
+acell   5.8399  5.8399  19.1440   # Bohr — from mp-11714
+angdeg  90.0  90.0  120.0
+rprim   1.0  0.0  0.0
+        -0.5  0.8660254038  0.0
+        0.0  0.0  1.0
+
+ntypat  2
+znucl   14 6   # Si, C
+natom   8
+typat   1 1 1 1  2 2 2 2
+
+xred
+   0.0000000000  0.0000000000  0.0000000000   # Si, bilayer A (k-site)
+   0.3333333333  0.6666666667  0.2500000000   # Si, bilayer B (h-site)
+   0.0000000000  0.0000000000  0.5000000000   # Si, bilayer A (k-site)
+   0.6666666667  0.3333333333  0.7500000000   # Si, bilayer C (h-site)
+   0.0000000000  0.0000000000  0.1875000000   # C, bilayer A (k-site)
+   0.3333333333  0.6666666667  0.4375000000   # C, bilayer B (h-site)
+   0.0000000000  0.0000000000  0.6875000000   # C, bilayer A (k-site)
+   0.6666666667  0.3333333333  0.9375000000   # C, bilayer C (h-site)
+
+kptopt  1   # automatic generation
+ngkpt   6 6 2   # denser along a,b (short lattice vectors)
+nshiftk 1
+shiftk  0.0 0.0 0.5
+
+include "../common_parameters.abi"
+
+occopt  3
+
+usepawu 0
+lpawu   -1 -1
+
+pseudos "Si.xml, C.xml"   # JTH v2.0 PAW datasets
+
+optcell 2   # relax both cell and atoms
+ionmov  22   # L-BFGS
+ntime   50
+tolmxf  5.0d-5   # Ha/Bohr → ~2.5 meV/Å force convergence
+ecutsm  0.5   # smooth cutoff for optcell
+dilatmx 1.05

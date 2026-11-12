@@ -1,0 +1,14 @@
+{
+  "config": "er_kb",
+  "description": "Er_Si(k) + adjacent B substituting Si (B_Si pair)",
+  "supercell": [
+    4,
+    4,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 128,
+  "lattice_a_bohr": 23.357013219095997,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Er1 Si62 B1 C64"
+}

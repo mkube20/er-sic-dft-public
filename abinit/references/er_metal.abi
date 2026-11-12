@@ -1,0 +1,35 @@
+# er_metal: hcp Er metal, spin-restricted (not used; see er_metal_spin).
+# Shared settings: ../common_parameters.abi. See README.md for the full workflow.
+
+acell   6.7255  6.7255  10.5537   # Bohr
+angdeg  90.0  90.0  120.0
+rprim   1.0  0.0  0.0
+        -0.5  0.8660254038  0.0
+        0.0  0.0  1.0
+
+ntypat  1
+znucl   68   # Er
+natom   2
+typat   1 1
+xred
+   0.3333333333  0.6666666667  0.25
+   0.6666666667  0.3333333333  0.75
+
+kptopt  1
+ngkpt   12 12 8   # dense for metal
+nshiftk 1
+shiftk  0.0 0.0 0.5
+
+include "../common_parameters.abi"
+
+occopt  3
+
+usepawu 1
+lpawu   3   # f-electron U on Er
+upawu   0.265   # Ha (7.21 eV)
+jpawu   0.0
+
+pseudos "Er.xml"
+
+optcell 0
+ionmov  0

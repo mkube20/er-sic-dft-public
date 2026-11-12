@@ -1,0 +1,27 @@
+# sic_primitive_gapA_gamma_pbewfk: 4H-SiC primitive cell: PBE band gap (and wavefunctions for HSE restart), Gamma-centered 6 6 2 mesh.
+# Shared settings: ../common_parameters.abi. See README.md for the full workflow.
+
+include "../references/sic_primitive_geom.abi"
+
+kptopt  1
+ngkpt   6 6 2
+nshiftk 1
+shiftk  0.0 0.0 0.0
+
+include "../common_parameters.abi"
+
+occopt  3
+usepawu 0
+lpawu   -1 -1
+upawu   0.0 0.0
+jpawu   0.0 0.0
+pseudos "Si.xml, C.xml"
+
+ionmov  0
+optcell 0
+ecutsm  0.5
+nband   24   # 16 occupied + 8 empty
+
+istwfk *1   # read by the HSE06 restart
+prtwf   1
+prtvol  1

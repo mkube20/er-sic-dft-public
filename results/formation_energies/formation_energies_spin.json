@@ -1,0 +1,202 @@
+{
+  "chemical_potentials_hartree": {
+    "Si_rich": {
+      "mu_Si": -3.9866735949,
+      "mu_C": -5.762104590600001,
+      "mu_Er": -194.68102755,
+      "mu_N": -10.0294752125,
+      "mu_O": -16.071739488,
+      "mu_Al": -2.1056013574,
+      "mu_P": -6.66591369875,
+      "mu_B": -2.861680176,
+      "mu_H": -0.58311140515
+    },
+    "C_rich": {
+      "mu_Si": -4.001788416750001,
+      "mu_C": -5.74698976875,
+      "mu_Er": -194.68102755,
+      "mu_N": -10.0294752125,
+      "mu_O": -16.071739488,
+      "mu_Al": -2.1056013574,
+      "mu_P": -6.66591369875,
+      "mu_B": -2.861680176,
+      "mu_H": -0.58311140515
+    }
+  },
+  "formation_energies_eV": {
+    "er_ho": {
+      "Si_rich": 0.5079343190532852,
+      "C_rich": 0.5079343190525119,
+      "relaxed": true,
+      "source_abo": "er_ho_relax3_spin.abo",
+      "geometry_pass": 3
+    },
+    "er_hn": {
+      "Si_rich": 1.0905931017243944,
+      "C_rich": 1.090593101723621,
+      "relaxed": true,
+      "source_abo": "er_hn_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_kv": {
+      "Si_rich": 4.069485673115851,
+      "C_rich": 4.069485673115078,
+      "relaxed": true,
+      "source_abo": "er_kv_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_hv": {
+      "Si_rich": 4.2960853412500954,
+      "C_rich": 4.296085341249323,
+      "relaxed": true,
+      "source_abo": "er_hv_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_hc": {
+      "Si_rich": 10.336360479844574,
+      "C_rich": 10.74765594313304,
+      "relaxed": true,
+      "source_abo": "er_hc_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_k": {
+      "Si_rich": 4.523628989173016,
+      "C_rich": 4.112333525883777,
+      "relaxed": true,
+      "source_abo": "er_k_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_h": {
+      "Si_rich": 4.3342273048407565,
+      "C_rich": 3.9229318415515175,
+      "relaxed": true,
+      "source_abo": "er_h_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_i": {
+      "Si_rich": 11.711112261508827,
+      "C_rich": 11.711112261508827,
+      "relaxed": true,
+      "source_abo": "er_i_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_hp": {
+      "Si_rich": 4.390317996311075,
+      "C_rich": 3.5677270697325976,
+      "relaxed": true,
+      "source_abo": "er_hp_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_hal": {
+      "Si_rich": 5.629475590827412,
+      "C_rich": 4.806884664248935,
+      "relaxed": true,
+      "source_abo": "er_hal_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_hb": {
+      "Si_rich": 5.930825208777609,
+      "C_rich": 5.108234282199132,
+      "relaxed": true,
+      "source_abo": "er_hb_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_ko": {
+      "Si_rich": 0.24428632982131812,
+      "C_rich": 0.24428632982054474,
+      "relaxed": true,
+      "source_abo": "er_ko_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_kn": {
+      "Si_rich": 0.7316246667486553,
+      "C_rich": 0.731624666747882,
+      "relaxed": true,
+      "source_abo": "er_kn_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_kp": {
+      "Si_rich": 3.9924138575305825,
+      "C_rich": 3.1698229309521055,
+      "relaxed": true,
+      "source_abo": "er_kp_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_kal": {
+      "Si_rich": 5.334332583009808,
+      "C_rich": 4.511741656431331,
+      "relaxed": true,
+      "source_abo": "er_kal_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_kb": {
+      "Si_rich": 5.606235384446857,
+      "C_rich": 4.78364445786838,
+      "relaxed": true,
+      "source_abo": "er_kb_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_kc": {
+      "Si_rich": 10.657019617445505,
+      "C_rich": 11.06831508073397,
+      "relaxed": true,
+      "source_abo": "er_kc_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_kh": {
+      "Si_rich": 3.803674534051903,
+      "C_rich": 3.3923790707626647,
+      "relaxed": true,
+      "source_abo": "er_kh_relax_spin.abo",
+      "geometry_pass": 1
+    },
+    "er_hh": {
+      "Si_rich": 4.251314581295557,
+      "C_rich": 3.840019118006319,
+      "relaxed": true,
+      "source_abo": "er_hh_relax_spin.abo",
+      "geometry_pass": 1
+    }
+  },
+  "ranking": [
+    "er_ko",
+    "er_ho",
+    "er_kn",
+    "er_hn",
+    "er_kp",
+    "er_kh",
+    "er_hp",
+    "er_hh",
+    "er_kv",
+    "er_h",
+    "er_hv",
+    "er_k",
+    "er_kal",
+    "er_kb",
+    "er_hal",
+    "er_hb",
+    "er_hc",
+    "er_kc",
+    "er_i"
+  ],
+  "threshold_eV": 8.0,
+  "selected": [
+    "er_ko",
+    "er_ho",
+    "er_kn",
+    "er_hn",
+    "er_kp",
+    "er_kh",
+    "er_hp",
+    "er_hh",
+    "er_kv",
+    "er_h",
+    "er_hv",
+    "er_k",
+    "er_kal",
+    "er_kb",
+    "er_hal",
+    "er_hb"
+  ],
+  "lowest": "er_ko"
+}

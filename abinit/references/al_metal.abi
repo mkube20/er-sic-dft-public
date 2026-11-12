@@ -1,0 +1,39 @@
+# al_metal: fcc Al metal (chemical-potential reference).
+# Shared settings: ../common_parameters.abi. See README.md for the full workflow.
+
+acell   3*7.65237   # Bohr (a = 4.0495 Ang)
+rprim   0.0  0.5  0.5
+        0.5  0.0  0.5
+        0.5  0.5  0.0
+
+ntypat  1
+znucl   13   # Al
+natom   1
+typat   1
+xred
+   0.0  0.0  0.0
+
+kptopt  1
+ngkpt   12 12 12
+nshiftk 4
+shiftk  0.5 0.5 0.5
+        0.5 0.0 0.0
+        0.0 0.5 0.0
+        0.0 0.0 0.5
+
+include "../common_parameters.abi"
+
+occopt  3
+usepawu 0
+lpawu   -1
+upawu   0.0
+jpawu   0.0
+pseudos "Al.xml"
+
+ionmov  0
+optcell 0
+ecutsm  0.5
+
+nband   12
+prtwf   0
+prtvol  1

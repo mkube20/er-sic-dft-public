@@ -1,0 +1,14 @@
+{
+  "config": "er_hv",
+  "description": "Er_Si(h) + adjacent C vacancy",
+  "supercell": [
+    2,
+    2,
+    1
+  ],
+  "intended_charge": 0,
+  "natom": 31,
+  "lattice_a_bohr": 11.678506609547998,
+  "lattice_c_bohr": 19.142924264518,
+  "composition": "Er1 Si15 C15"
+}

@@ -1,0 +1,20 @@
+# common_parameters.abi: settings shared by all PBE and PBE+U calculations.
+# Included by every input in production/ and references/.
+
+pp_dirpath "../../pseudopotentials/"   # JTH v2.0 PAW datasets (PBE)
+
+ecut       22        # Ha, plane-wave cutoff
+pawecutdg  44        # Ha, PAW fine-grid cutoff
+tsmear     0.005     # Ha, Fermi-Dirac smearing width (with occopt 3)
+
+tolvrs     1.0d-10   # SCF convergence on the potential residual
+nstep      150       # maximum SCF iterations
+iscf       17        # Pulay mixing on the density
+diemix     0.4       # mixing factor
+diemac     12.0      # model dielectric constant for SCF preconditioning only
+
+autoparal  1
+
+prtden     1         # write the density (allows restarts)
+prteig     1         # write eigenvalues
+prtebands  0         # do not write band-structure plot files
