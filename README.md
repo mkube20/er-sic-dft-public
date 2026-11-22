@@ -4,7 +4,7 @@ This repository contains the calculation inputs and outputs, analysis code and
 processed results for the manuscript
 
 > M. Kuban and E. Towe, *Erbium–impurity complexes as candidate
-> telecom quantum emitters in 4H-SiC* (submitted).
+> telecom quantum emitters in 4H-SiC* (in preparation).
 
 Nineteen erbium configurations in 4H-SiC were computed with density functional
 theory (PBE+U, spin-polarized, explicit Er 4f shell) in 128-atom supercells.
